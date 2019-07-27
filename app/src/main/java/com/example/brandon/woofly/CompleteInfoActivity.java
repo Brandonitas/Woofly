@@ -67,29 +67,89 @@ public class CompleteInfoActivity extends AppCompatActivity {
         });
 
         bt2.setOnClickListener(new View.OnClickListener() {
+            @SuppressLint("ResourceAsColor")
+            @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
             @Override
             public void onClick(View view) {
+
+                if(isSelected==false) {
+                    bt2.setBackground(getResources().getDrawable(R.drawable.button_age_selected));
+                    bt2.setTextColor(Color.parseColor("#FFFFFF"));
+                    isSelected = true;
+                    loadButton();
+                }else{
+                    bt2.setBackground(getResources().getDrawable(R.drawable.button_age));
+                    bt2.setTextColor(Color.parseColor("#000000"));
+                    isSelected = false;
+                    hideButton();
+                }
+
 
             }
         });
 
         bt3.setOnClickListener(new View.OnClickListener() {
+            @SuppressLint("ResourceAsColor")
+            @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
             @Override
             public void onClick(View view) {
+
+                if(isSelected==false) {
+                    bt3.setBackground(getResources().getDrawable(R.drawable.button_age_selected));
+                    bt3.setTextColor(Color.parseColor("#FFFFFF"));
+                    isSelected = true;
+                    loadButton();
+                }else{
+                    bt3.setBackground(getResources().getDrawable(R.drawable.button_age));
+                    bt3.setTextColor(Color.parseColor("#000000"));
+                    isSelected = false;
+                    hideButton();
+                }
+
 
             }
         });
 
         bt4.setOnClickListener(new View.OnClickListener() {
+            @SuppressLint("ResourceAsColor")
+            @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
             @Override
             public void onClick(View view) {
+
+                if(isSelected==false) {
+                    bt4.setBackground(getResources().getDrawable(R.drawable.button_age_selected));
+                    bt4.setTextColor(Color.parseColor("#FFFFFF"));
+                    isSelected = true;
+                    loadButton();
+                }else{
+                    bt4.setBackground(getResources().getDrawable(R.drawable.button_age));
+                    bt4.setTextColor(Color.parseColor("#000000"));
+                    isSelected = false;
+                    hideButton();
+                }
+
 
             }
         });
 
         bt5.setOnClickListener(new View.OnClickListener() {
+            @SuppressLint("ResourceAsColor")
+            @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
             @Override
             public void onClick(View view) {
+
+                if(isSelected==false) {
+                    bt5.setBackground(getResources().getDrawable(R.drawable.button_age_selected));
+                    bt5.setTextColor(Color.parseColor("#FFFFFF"));
+                    isSelected = true;
+                    loadButton();
+                }else{
+                    bt5.setBackground(getResources().getDrawable(R.drawable.button_age));
+                    bt5.setTextColor(Color.parseColor("#000000"));
+                    isSelected = false;
+                    hideButton();
+                }
+
 
             }
         });

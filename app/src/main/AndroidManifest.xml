@@ -10,19 +10,24 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity" />
-        <activity android:name=".SplashCreenActivity" />
-        <activity android:name=".HowWorks1Activity" />
-        <activity android:name=".RegisterActivity" />
-        <activity android:name=".CompleteInfoActivity">
+        <activity android:name=".SplashCreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ProfileActivity" />
+        <activity android:name=".HowWorks1Activity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".CompleteInfoActivity"></activity>
+        <activity android:name=".ProfileActivity">
+
+        </activity>
         <activity android:name=".CompleteInfo2Activity" />
-        <activity android:name=".CompleteInfo3Activity"></activity>
+        <activity android:name=".CompleteInfo3Activity" />
+        <activity android:name=".MenuActivity">
+
+        </activity>
     </application>
 
 </manifest>

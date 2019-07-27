@@ -85,7 +85,7 @@
         app:layout_constraintTop_toBottomOf="@+id/viewPager" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/btn2"
         android:layout_width="240dp"
         android:layout_height="48dp"
         android:layout_marginLeft="16dp"
@@ -95,10 +95,10 @@
         android:text="¡Si! Quiero adoptar"
         android:textSize="20dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button11" />
+        app:layout_constraintTop_toBottomOf="@+id/btn1" />
 
     <Button
-        android:id="@+id/button11"
+        android:id="@+id/btn1"
         android:layout_width="344dp"
         android:layout_height="48dp"
         android:layout_marginLeft="16dp"
@@ -111,16 +111,21 @@
         app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:id="@+id/getStarted"
+        android:layout_width="120dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="40dp"
         android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
-        android:text="Button"
+        android:background="@drawable/btn_gradient_style"
+        android:text="Get Started"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="576dp" />
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </android.support.constraint.ConstraintLayout>

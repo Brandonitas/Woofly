@@ -48,9 +48,9 @@ public class HowWorks1Activity extends AppCompatActivity {
 
 
         final List<ScreenItem> mList = new ArrayList<>();
-        mList.add(new ScreenItem("Adopt Virtually","Get list of best doctor nearby you",R.drawable.how1));
-        mList.add(new ScreenItem("Buy in our store","Get list of best doctor nearby you",R.drawable.how2));
-        mList.add(new ScreenItem("Hola3","des3",R.drawable.how1));
+        mList.add(new ScreenItem("Adopt Virtually","Give love to a dog that needs love.",R.drawable.how1));
+        mList.add(new ScreenItem("Buy in our store","Buy in our online store everything you need for your pet.",R.drawable.how2));
+        mList.add(new ScreenItem("Benefits as a subscriber","Get discounts and gifts on products from our store.",R.drawable.auto));
 
         screenPager = findViewById(R.id.screen_viewpager);
         introViewPagerAdapter = new IntroViewPagerAdapter(this, mList);
