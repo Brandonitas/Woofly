@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <!-- Focused and pressed -->
+    <item
+        android:state_selected="true"
+        android:drawable="@drawable/button_age" />
+
+    <!-- Unfocused and pressed -->
+    <item
+        android:state_selected="true"
+        android:drawable="@drawable/button_age_selected"/>
+
+    <!-- Default color -->
+    <item android:drawable="@drawable/button_age"/>
+
+</selector>
